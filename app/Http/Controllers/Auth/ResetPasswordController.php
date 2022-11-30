@@ -22,9 +22,9 @@ class ResetPasswordController extends Controller
     use ResetsPasswords;
 
     /**
-     * Where to redirect posts after resetting their password.
+     * Where to redirect users after resetting their password.
      *
      * @var string
      */
-    protected string $redirectTo = RouteServiceProvider::HOME;
+    protected $redirectTo = RouteServiceProvider::HOME;
 }

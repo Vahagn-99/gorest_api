@@ -13,7 +13,7 @@ class RouteServiceProvider extends ServiceProvider
     /**
      * The path to the "home" route for your application.
      *
-     * Typically, posts are redirected here after authentication.
+     * Typically, users are redirected here after authentication.
      *
      * @var string
      */
