@@ -10,7 +10,7 @@
   . cp .env.example .env
   . composer install && composer update
   . npm install && npm run dev
-  . php artisan serve 
+  . php artisan artisan serve 
   . configure .env file
   . php migrate:fresh --seed
 ```
