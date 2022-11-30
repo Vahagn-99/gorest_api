@@ -7,7 +7,7 @@
 ```bash
   . git clone https://github.com/Vahagn-99/gorest_api.git gorest_api 
   . cd gorest_api 
-  . cd .env .env.exaple
+  . cp .env .env.exaple
   . composer install && composer update
   . npm install && npm run dev
   . php artisan serve 
