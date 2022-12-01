@@ -13,7 +13,7 @@
    npm install && npm run build 
    configure .env file
    php artisan migrate:fresh --seed
-   php artisan artisan serve
+   php artisan serve
 ```
 
 Admin 
