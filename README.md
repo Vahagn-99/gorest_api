@@ -8,8 +8,8 @@
    git clone https://github.com/Vahagn-99/gorest_api.git gorest_api 
    cd gorest_api 
    cp .env.example .env
-   php artisan key:generate
    composer install && composer update
+   php artisan key:generate
    npm install && npm run dev
    php artisan artisan serve 
    configure .env file
