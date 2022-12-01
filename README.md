@@ -10,10 +10,10 @@
    cp .env.example .env
    composer install && composer update
    php artisan key:generate
-   npm install && npm run dev
-   php artisan artisan serve 
+   npm install && npm run build 
    configure .env file
    php migrate:fresh --seed
+   php artisan artisan serve
 ```
 
 Admin 
