@@ -12,7 +12,7 @@
    php artisan key:generate
    npm install && npm run build 
    configure .env file
-   php migrate:fresh --seed
+   php artisan migrate:fresh --seed
    php artisan artisan serve
 ```
 
